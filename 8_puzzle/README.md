@@ -4,8 +4,8 @@ REQUIREMENTS: SFML LIBRARY + LINUX_X86_64 + C++ LIB
 
 SURPRISE: The game will exit as soon as you got to the final state.
            The total move will be shown in the terminal.
-NOTE:
-In grid.cpp,Grid::init() ,The shuffle is off but can be swithcd on by uncommenting the following lines.
+
+ NOTE: In grid.cpp,Grid::init() ,The shuffle is off but can be swithcd on by uncommenting the following lines.
 But in 8 puzzle there are two discrete sets of grid configuration.The configuration
 in one grid set can only be change to the configuration in the same set.But here we have
 hardcoded our final desired configuration
